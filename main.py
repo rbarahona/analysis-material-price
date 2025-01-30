@@ -30,8 +30,8 @@ def save_to_csv(data, output_path):
         writer.writerows(data)
 
 # Directory containing the PDF files
-pdf_directory = "/Users/ramonbarahona/github/invoices"  # Replace with the path to your PDF folder
-output_csv = "/Users/ramonbarahona/github/invoices/extracted_data.csv"
+pdf_directory = "/Users/ramonbarahona/Sites/analysis-material-price/invoices/capitalelectric"  # Replace with the path to your PDF folder
+output_csv = "/Users/ramonbarahona/Sites/analysis-material-price/invoices/extracted_data.csv"
 
 # Process each PDF file in the directory
 all_data = []
